@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contacten.css">
+</head>
+<body>
+
+    <div class="contact">
+        <h1>Contact</h1>
+        <p>Heb je een vraag? Stuur mij een bericht!</p>
+
+        <form action="mailto:jouw@email.nl" method="post" enctype="text/plain">
+            <label>Naam</label>
+            <input type="text" name="naam" placeholder="Je naam" required>
+
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="Je e-mail" required>
+
+            <label>Bericht</label>
+            <textarea name="bericht" placeholder="Typ je bericht..." required></textarea>
+
+            <button type="submit">Verstuur</button>
+        </form>
+    </div>
+
+</body>
+</html>
